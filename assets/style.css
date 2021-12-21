@@ -1,0 +1,36 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    max-width: 1300px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.header-conteiner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1rem;
+}
+.header-conteiner img{
+  height: 60px;
+}
+.menu-conteiner ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    
+}
+.menu-conteiner ul li{
+    margin-left: 2rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.bg-conteiner img{
+    width: 100%;
+
+}
